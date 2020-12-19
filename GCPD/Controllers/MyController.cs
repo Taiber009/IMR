@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Threading.Tasks;
-using Interfaces;
+﻿using Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ModelsLibrary;
-
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Cors;
 
 namespace IMR.Controllers
 {
@@ -25,6 +20,7 @@ namespace IMR.Controllers
         }
 
         [HttpGet]
+        [EnableCors]
         [Route("comics")]
         public object[] ComicsGetAll()
         {

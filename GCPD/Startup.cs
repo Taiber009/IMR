@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
+using Microsoft.AspNetCore.Cors;
 
 namespace IMR
 {
@@ -49,7 +50,7 @@ namespace IMR
 
             app.UseHttpsRedirection();
             app.UseSwagger();
-
+            app.UseCors();
             // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {

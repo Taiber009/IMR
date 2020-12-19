@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "GCPD": {
+    "IMR": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "laborexchange/api/comics",
