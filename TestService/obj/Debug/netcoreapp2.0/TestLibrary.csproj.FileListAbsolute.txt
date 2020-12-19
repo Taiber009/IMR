@@ -1,0 +1,14 @@
+C:\Users\Taiber009\Desktop\ИМР\TestService\bin\Debug\netcoreapp2.0\TestLibrary.deps.json
+C:\Users\Taiber009\Desktop\ИМР\TestService\bin\Debug\netcoreapp2.0\TestLibrary.dll
+C:\Users\Taiber009\Desktop\ИМР\TestService\bin\Debug\netcoreapp2.0\TestLibrary.pdb
+C:\Users\Taiber009\Desktop\ИМР\TestService\bin\Debug\netcoreapp2.0\Interfaces.dll
+C:\Users\Taiber009\Desktop\ИМР\TestService\bin\Debug\netcoreapp2.0\ModelsLibrary.dll
+C:\Users\Taiber009\Desktop\ИМР\TestService\bin\Debug\netcoreapp2.0\Interfaces.pdb
+C:\Users\Taiber009\Desktop\ИМР\TestService\bin\Debug\netcoreapp2.0\ModelsLibrary.pdb
+C:\Users\Taiber009\Desktop\ИМР\TestService\obj\Debug\netcoreapp2.0\TestLibrary.csprojAssemblyReference.cache
+C:\Users\Taiber009\Desktop\ИМР\TestService\obj\Debug\netcoreapp2.0\TestLibrary.AssemblyInfoInputs.cache
+C:\Users\Taiber009\Desktop\ИМР\TestService\obj\Debug\netcoreapp2.0\TestLibrary.AssemblyInfo.cs
+C:\Users\Taiber009\Desktop\ИМР\TestService\obj\Debug\netcoreapp2.0\TestLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Taiber009\Desktop\ИМР\TestService\obj\Debug\netcoreapp2.0\TestLibrary.csproj.CopyComplete
+C:\Users\Taiber009\Desktop\ИМР\TestService\obj\Debug\netcoreapp2.0\TestLibrary.dll
+C:\Users\Taiber009\Desktop\ИМР\TestService\obj\Debug\netcoreapp2.0\TestLibrary.pdb
