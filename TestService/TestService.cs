@@ -16,7 +16,7 @@ namespace TestLibrary
                      s2 = new string[] { "Паук", "Мэн", "Паук", "Кошка", "Таракан", "Жук", "Женщина", "Человек", "Соболь", "Кабан", "Воин" };
             Random rand = new Random();
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 30; i++)
             {
                 _test.Add(new ComicsModel
                 {
