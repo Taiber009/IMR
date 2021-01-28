@@ -1,2 +1,0 @@
-# IMR
- Izbrannye metodi razrabotki
