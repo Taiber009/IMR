@@ -1,13 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rJNOATYBX4pY5sSGtuaYXrDzIjfCD8x0yAs4V01v1d3YLMmFej8Q2+qpZjENJUxzJqD/eLTnbW+zrnJp3jRUBg==",
+  "dgSpecHash": "U25NcHWNPawT6iHQs2PWQdZcN2Zu/lvZqIXGyWL6BsodLkXsk27JMBxcB1zdCGvp8/gAtnZt8PihgQH0yZacFg==",
   "success": true,
   "projectFilePath": "T:\\Progi!\\IMR\\IMR\\IMR.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Taiber009\\.nuget\\packages\\microsoft.aspnet.cors\\5.2.7\\microsoft.aspnet.cors.5.2.7.nupkg.sha512",
-    "C:\\Users\\Taiber009\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
-    "C:\\Users\\Taiber009\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.7\\microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",
-    "C:\\Users\\Taiber009\\.nuget\\packages\\microsoft.aspnet.webapi.cors\\5.2.7\\microsoft.aspnet.webapi.cors.5.2.7.nupkg.sha512",
+    "C:\\Users\\Taiber009\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Taiber009\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
     "C:\\Users\\Taiber009\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",
     "C:\\Users\\Taiber009\\.nuget\\packages\\microsoft.aspnetcore.app\\2.1.1\\microsoft.aspnetcore.app.2.1.1.nupkg.sha512",
@@ -288,36 +285,5 @@
     "C:\\Users\\Taiber009\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\Taiber009\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Пакет \"Microsoft.AspNet.Cors 5.2.7\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v2.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "Microsoft.AspNet.Cors",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Пакет \"Microsoft.AspNet.WebApi.Core 5.2.7\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v2.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "Microsoft.AspNet.WebApi.Core",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Пакет \"Microsoft.AspNet.WebApi.Cors 5.2.7\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v2.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "Microsoft.AspNet.WebApi.Cors",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
-      ]
-    }
-  ]
+  "logs": []
 }

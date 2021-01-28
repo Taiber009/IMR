@@ -4,7 +4,7 @@ using ModelsLibrary;
 namespace Interfaces
 {
 
-    public interface IComics
+    public interface IComicsService
     {
         PagedResult<ComicsModel> ComicsGetById(int id);
 

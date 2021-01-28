@@ -2,12 +2,11 @@ swagger: '2.0'
 info:
   version: v1
   title: My API
-host: imr2-303014.appspot.com
 paths:
-  /LaborExchange/api/comics:
+  /Servak/api/comics:
     get:
       tags:
-        - LaborExchange
+        - Servak
       operationId: ComicsGetAll
       consumes: []
       produces:
@@ -15,6 +14,30 @@ paths:
         - application/json
         - text/json
       parameters: []
+      responses:
+        '200':
+          description: Success
+          schema:
+            uniqueItems: false
+            type: array
+            items:
+              type: object
+  '/Servak/api/comics/id/{id}':
+    get:
+      tags:
+        - Servak
+      operationId: ComicsGetById
+      consumes: []
+      produces:
+        - text/plain
+        - application/json
+        - text/json
+      parameters:
+        - name: id
+          in: path
+          required: true
+          type: integer
+          format: int32
       responses:
         '200':
           description: Success

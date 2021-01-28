@@ -1,20 +1,26 @@
-﻿using Interfaces;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Threading.Tasks;
+using Interfaces;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ModelsLibrary;
-using System.Collections.Generic;
-using Microsoft.AspNetCore.Cors;
+
 
 namespace IMR.Controllers
 {
     [ApiController]
     [Route("[controller]/api")]
-    public class LaborExchangeController : ControllerBase
+    public class ServakController : ControllerBase
     {
-        private readonly IComics _service = new TestLibrary.TestService();
-        private readonly ILogger<LaborExchangeController> _logger;
+        private readonly IComicsService _service = new TestLibrary.TestService();
+        private readonly ILogger<ServakController> _logger;
 
-        public LaborExchangeController(ILogger<LaborExchangeController> logger)
+        public ServakController(ILogger<ServakController> logger)
         {
             _logger = logger;
         }
@@ -27,8 +33,9 @@ namespace IMR.Controllers
             PagedResult<ComicsModel> t = _service.ComicsGetAll();
             return GetPagedResultAsArray(t);
         }
-/*
+
         [HttpGet]
+        [EnableCors]
         [Route("comics/id/{id:int}")]
         public object[] ComicsGetById(int id)
         {
@@ -36,14 +43,15 @@ namespace IMR.Controllers
             return GetPagedResultAsArray(t);
         }
 
-        [HttpGet]
+        /*[HttpGet]
+        [EnableCors]
         [Route("comics/page/{page:int}/pagecount/{pagecount:int}")]
         public object[] ComicsGetByPageAndPagecount(int page, int pagecount)
         {
             var t = _service.ComicsGetByPageAndPagecount(page, pagecount);
             return GetPagedResultAsArray(t);
-        }
-*/
+        }*/
+
         private object[] GetPagedResultAsArray<T>(PagedResult<T> t)
         {
             List<object> objs = new List<object>

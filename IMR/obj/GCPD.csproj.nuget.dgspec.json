@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Taiber009\\Desktop\\ИМР\\GCPD\\GCPD.csproj": {}
+    "T:\\Progi!\\IMR\\GCPD\\GCPD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Taiber009\\Desktop\\ИМР\\GCPD\\GCPD.csproj": {
+    "T:\\Progi!\\IMR\\GCPD\\GCPD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Taiber009\\Desktop\\ИМР\\GCPD\\GCPD.csproj",
+        "projectUniqueName": "T:\\Progi!\\IMR\\GCPD\\GCPD.csproj",
         "projectName": "GCPD",
-        "projectPath": "C:\\Users\\Taiber009\\Desktop\\ИМР\\GCPD\\GCPD.csproj",
+        "projectPath": "T:\\Progi!\\IMR\\GCPD\\GCPD.csproj",
         "packagesPath": "C:\\Users\\Taiber009\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Taiber009\\Desktop\\ИМР\\GCPD\\obj\\",
+        "outputPath": "T:\\Progi!\\IMR\\GCPD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "P:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,14 +31,14 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\Taiber009\\Desktop\\ИМР\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "C:\\Users\\Taiber009\\Desktop\\ИМР\\Interfaces\\Interfaces.csproj"
+              "T:\\Progi!\\IMR\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "T:\\Progi!\\IMR\\Interfaces\\Interfaces.csproj"
               },
-              "C:\\Users\\Taiber009\\Desktop\\ИМР\\ModelsLibrary\\ModelsLibrary.csproj": {
-                "projectPath": "C:\\Users\\Taiber009\\Desktop\\ИМР\\ModelsLibrary\\ModelsLibrary.csproj"
+              "T:\\Progi!\\IMR\\ModelsLibrary\\ModelsLibrary.csproj": {
+                "projectPath": "T:\\Progi!\\IMR\\ModelsLibrary\\ModelsLibrary.csproj"
               },
-              "C:\\Users\\Taiber009\\Desktop\\ИМР\\TestService\\TestLibrary.csproj": {
-                "projectPath": "C:\\Users\\Taiber009\\Desktop\\ИМР\\TestService\\TestLibrary.csproj"
+              "T:\\Progi!\\IMR\\TestService\\TestLibrary.csproj": {
+                "projectPath": "T:\\Progi!\\IMR\\TestService\\TestLibrary.csproj"
               }
             }
           }
@@ -116,14 +116,14 @@
         }
       }
     },
-    "C:\\Users\\Taiber009\\Desktop\\ИМР\\Interfaces\\Interfaces.csproj": {
+    "T:\\Progi!\\IMR\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Taiber009\\Desktop\\ИМР\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "T:\\Progi!\\IMR\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
-        "projectPath": "C:\\Users\\Taiber009\\Desktop\\ИМР\\Interfaces\\Interfaces.csproj",
+        "projectPath": "T:\\Progi!\\IMR\\Interfaces\\Interfaces.csproj",
         "packagesPath": "C:\\Users\\Taiber009\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Taiber009\\Desktop\\ИМР\\Interfaces\\obj\\",
+        "outputPath": "T:\\Progi!\\IMR\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "P:\\Microsoft\\Xamarin\\NuGet\\"
@@ -143,8 +143,8 @@
         "frameworks": {
           "netcoreapp2.0": {
             "projectReferences": {
-              "C:\\Users\\Taiber009\\Desktop\\ИМР\\ModelsLibrary\\ModelsLibrary.csproj": {
-                "projectPath": "C:\\Users\\Taiber009\\Desktop\\ИМР\\ModelsLibrary\\ModelsLibrary.csproj"
+              "T:\\Progi!\\IMR\\ModelsLibrary\\ModelsLibrary.csproj": {
+                "projectPath": "T:\\Progi!\\IMR\\ModelsLibrary\\ModelsLibrary.csproj"
               }
             }
           }
@@ -179,14 +179,14 @@
         }
       }
     },
-    "C:\\Users\\Taiber009\\Desktop\\ИМР\\ModelsLibrary\\ModelsLibrary.csproj": {
+    "T:\\Progi!\\IMR\\ModelsLibrary\\ModelsLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Taiber009\\Desktop\\ИМР\\ModelsLibrary\\ModelsLibrary.csproj",
+        "projectUniqueName": "T:\\Progi!\\IMR\\ModelsLibrary\\ModelsLibrary.csproj",
         "projectName": "ModelsLibrary",
-        "projectPath": "C:\\Users\\Taiber009\\Desktop\\ИМР\\ModelsLibrary\\ModelsLibrary.csproj",
+        "projectPath": "T:\\Progi!\\IMR\\ModelsLibrary\\ModelsLibrary.csproj",
         "packagesPath": "C:\\Users\\Taiber009\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Taiber009\\Desktop\\ИМР\\ModelsLibrary\\obj\\",
+        "outputPath": "T:\\Progi!\\IMR\\ModelsLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "P:\\Microsoft\\Xamarin\\NuGet\\"
@@ -238,14 +238,14 @@
         }
       }
     },
-    "C:\\Users\\Taiber009\\Desktop\\ИМР\\TestService\\TestLibrary.csproj": {
+    "T:\\Progi!\\IMR\\TestService\\TestLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Taiber009\\Desktop\\ИМР\\TestService\\TestLibrary.csproj",
+        "projectUniqueName": "T:\\Progi!\\IMR\\TestService\\TestLibrary.csproj",
         "projectName": "TestLibrary",
-        "projectPath": "C:\\Users\\Taiber009\\Desktop\\ИМР\\TestService\\TestLibrary.csproj",
+        "projectPath": "T:\\Progi!\\IMR\\TestService\\TestLibrary.csproj",
         "packagesPath": "C:\\Users\\Taiber009\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Taiber009\\Desktop\\ИМР\\TestService\\obj\\",
+        "outputPath": "T:\\Progi!\\IMR\\TestService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "P:\\Microsoft\\Xamarin\\NuGet\\"
@@ -265,11 +265,11 @@
         "frameworks": {
           "netcoreapp2.0": {
             "projectReferences": {
-              "C:\\Users\\Taiber009\\Desktop\\ИМР\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "C:\\Users\\Taiber009\\Desktop\\ИМР\\Interfaces\\Interfaces.csproj"
+              "T:\\Progi!\\IMR\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "T:\\Progi!\\IMR\\Interfaces\\Interfaces.csproj"
               },
-              "C:\\Users\\Taiber009\\Desktop\\ИМР\\ModelsLibrary\\ModelsLibrary.csproj": {
-                "projectPath": "C:\\Users\\Taiber009\\Desktop\\ИМР\\ModelsLibrary\\ModelsLibrary.csproj"
+              "T:\\Progi!\\IMR\\ModelsLibrary\\ModelsLibrary.csproj": {
+                "projectPath": "T:\\Progi!\\IMR\\ModelsLibrary\\ModelsLibrary.csproj"
               }
             }
           }
