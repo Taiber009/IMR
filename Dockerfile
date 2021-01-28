@@ -5,7 +5,7 @@ WORKDIR /source
 # copy csproj and restore as distinct layers
 COPY /IMR/* ./IMR/
 COPY /Interfaces/* ./Interfaces/
-COPY /ModelsLibrary/* ./ModelsLibrary/
+# COPY /ModelsLibrary/* ./ModelsLibrary/
 COPY /TestService/* ./TestService/
 COPY *.sln .
 # WORKDIR /source/IMR
