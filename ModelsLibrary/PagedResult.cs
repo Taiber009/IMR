@@ -2,7 +2,8 @@
 
 namespace ModelsLibrary
 {
-    public class PagedResult<T>
+
+    public class PagedResult<T> 
     {
         public int PageCount
         {
