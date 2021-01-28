@@ -1,0 +1,9 @@
+T:\Progi!\IMR\ModelsLibrary\bin\Release\netcoreapp2.0\ModelsLibrary.deps.json
+T:\Progi!\IMR\ModelsLibrary\bin\Release\netcoreapp2.0\ModelsLibrary.dll
+T:\Progi!\IMR\ModelsLibrary\bin\Release\netcoreapp2.0\ModelsLibrary.pdb
+T:\Progi!\IMR\ModelsLibrary\obj\Release\netcoreapp2.0\ModelsLibrary.csprojAssemblyReference.cache
+T:\Progi!\IMR\ModelsLibrary\obj\Release\netcoreapp2.0\ModelsLibrary.AssemblyInfoInputs.cache
+T:\Progi!\IMR\ModelsLibrary\obj\Release\netcoreapp2.0\ModelsLibrary.AssemblyInfo.cs
+T:\Progi!\IMR\ModelsLibrary\obj\Release\netcoreapp2.0\ModelsLibrary.csproj.CoreCompileInputs.cache
+T:\Progi!\IMR\ModelsLibrary\obj\Release\netcoreapp2.0\ModelsLibrary.dll
+T:\Progi!\IMR\ModelsLibrary\obj\Release\netcoreapp2.0\ModelsLibrary.pdb
