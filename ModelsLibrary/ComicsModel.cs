@@ -4,9 +4,10 @@ using System.Text;
 
 namespace ModelsLibrary
 {
-
-    public class ComicsModel
+    [AttributeUsage(AttributeTargets.All, AllowMultiple = true)]
+    public class ComicsModel:Attribute
     {
+
         public int ID { get; set; }
 
         public string Name { get; set; }

@@ -7,3 +7,12 @@ C:\Users\Taiber009\Desktop\ИМР\ModelsLibrary\obj\Debug\netcoreapp2.0\ModelsLi
 C:\Users\Taiber009\Desktop\ИМР\ModelsLibrary\obj\Debug\netcoreapp2.0\ModelsLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Taiber009\Desktop\ИМР\ModelsLibrary\obj\Debug\netcoreapp2.0\ModelsLibrary.dll
 C:\Users\Taiber009\Desktop\ИМР\ModelsLibrary\obj\Debug\netcoreapp2.0\ModelsLibrary.pdb
+T:\Progi!\IMR\ModelsLibrary\bin\Debug\netcoreapp2.0\ModelsLibrary.deps.json
+T:\Progi!\IMR\ModelsLibrary\bin\Debug\netcoreapp2.0\ModelsLibrary.dll
+T:\Progi!\IMR\ModelsLibrary\bin\Debug\netcoreapp2.0\ModelsLibrary.pdb
+T:\Progi!\IMR\ModelsLibrary\obj\Debug\netcoreapp2.0\ModelsLibrary.csprojAssemblyReference.cache
+T:\Progi!\IMR\ModelsLibrary\obj\Debug\netcoreapp2.0\ModelsLibrary.AssemblyInfoInputs.cache
+T:\Progi!\IMR\ModelsLibrary\obj\Debug\netcoreapp2.0\ModelsLibrary.AssemblyInfo.cs
+T:\Progi!\IMR\ModelsLibrary\obj\Debug\netcoreapp2.0\ModelsLibrary.csproj.CoreCompileInputs.cache
+T:\Progi!\IMR\ModelsLibrary\obj\Debug\netcoreapp2.0\ModelsLibrary.dll
+T:\Progi!\IMR\ModelsLibrary\obj\Debug\netcoreapp2.0\ModelsLibrary.pdb
