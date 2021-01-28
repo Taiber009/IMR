@@ -1,5 +1,0 @@
-runtime: aspnetcore
-env: flex
-endpoints_api_service:
-    name: gcpd-294815.appspot.com
-    rollout_strategy: managed
