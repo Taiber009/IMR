@@ -13,12 +13,11 @@ COPY *.sln .
 RUN dotnet restore IMR.sln
 
 # copy and publish app and libraries
-# COPY . ../.
 # WORKDIR /source
 RUN dotnet publish -c release -o /app --no-restore IMR.sln
 
 # final stage/image
-FROM mcr.microsoft.com/dotnet/core/runtime:2.1
+FROM gcr.io/google-appengine/aspnetcore:2.1.1
 WORKDIR /app
 COPY --from=build /app .
 ENTRYPOINT ["dotnet", "IMR.dll"]
