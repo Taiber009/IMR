@@ -26,7 +26,7 @@ namespace IMR.Controllers
         }
 
         [HttpGet]
-        [EnableCors("defaultCORSPolicy")]
+        [EnableCors()]
         [Route("comics")]
         public object[] ComicsGetAll()
         {
@@ -35,7 +35,7 @@ namespace IMR.Controllers
         }
 
         [HttpGet]
-        [EnableCors("defaultCORSPolicy")]
+        [EnableCors()]
         [Route("comics/id/{id:int}")]
         public object[] ComicsGetById(int id)
         {
@@ -44,7 +44,7 @@ namespace IMR.Controllers
         }
 
         /*[HttpGet]
-        [EnableCors("defaultCORSPolicy")]
+        [EnableCors()]
         [Route("comics/page/{page:int}/pagecount/{pagecount:int}")]
         public object[] ComicsGetByPageAndPagecount(int page, int pagecount)
         {
