@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLibrary", "TestService\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMR", "IMR\IMR.csproj", "{0F5A61DC-4C5A-426F-A125-A3F0C5A85124}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrontEnd", "FrontEnd\FrontEnd.csproj", "{EACCB583-3E02-4063-AE4C-DCF2CD39D286}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{0F5A61DC-4C5A-426F-A125-A3F0C5A85124}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F5A61DC-4C5A-426F-A125-A3F0C5A85124}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F5A61DC-4C5A-426F-A125-A3F0C5A85124}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EACCB583-3E02-4063-AE4C-DCF2CD39D286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EACCB583-3E02-4063-AE4C-DCF2CD39D286}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EACCB583-3E02-4063-AE4C-DCF2CD39D286}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EACCB583-3E02-4063-AE4C-DCF2CD39D286}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
