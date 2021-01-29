@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using ModelsLibrary;
 
 namespace Interfaces
@@ -6,10 +7,10 @@ namespace Interfaces
 
     public interface IComicsService
     {
-        PagedResult<ComicsModel> ComicsGetById(int id);
+        List<ComicsModel> ComicsGetById(int id);
 
-        PagedResult<ComicsModel> ComicsGetAll();
+        List<ComicsModel> ComicsGetAll();
 
-        PagedResult<ComicsModel> ComicsGetByPageAndPagecount(int page, int pagecount);
+        ///PagedResult<ComicsModel> ComicsGetByPageAndPagecount(int page, int pagecount);
     }
 }

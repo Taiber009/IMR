@@ -26,21 +26,21 @@ namespace IMR.Controllers
         }
 
         [HttpGet]
-        [EnableCors()]
+        [EnableCors]
         [Route("comics")]
         public object[] ComicsGetAll()
         {
-            PagedResult<ComicsModel> t = _service.ComicsGetAll();
-            return GetPagedResultAsArray(t);
+            var t = _service.ComicsGetAll();
+            return t.ToArray();
         }
 
         [HttpGet]
-        [EnableCors()]
+        [EnableCors]
         [Route("comics/id/{id:int}")]
         public object[] ComicsGetById(int id)
         {
             var t = _service.ComicsGetById(id);
-            return GetPagedResultAsArray(t);
+            return t.ToArray();
         }
 
         /*[HttpGet]
@@ -50,9 +50,9 @@ namespace IMR.Controllers
         {
             var t = _service.ComicsGetByPageAndPagecount(page, pagecount);
             return GetPagedResultAsArray(t);
-        }*/
+        }
 
-        private object[] GetPagedResultAsArray<T>(PagedResult<T> t)
+        private object[] GetPagedResultAsArray<T>(ComicsModel t)
         {
             List<object> objs = new List<object>
             {
@@ -60,6 +60,6 @@ namespace IMR.Controllers
                 t.Page
             };
             return objs.ToArray();
-        }
+        }*/
     }
 }
