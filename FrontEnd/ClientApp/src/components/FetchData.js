@@ -5,16 +5,16 @@ export class FetchData extends Component {
 
     constructor(props) {
         super(props);
-        this.state = { companies: [], loading: true };
+        this.state = { comicses: [], loading: true };
 
-        fetch('https://gcpd-294815.oa.r.appspot.com/LaborExchange/api/companytypes')
+        fetch('https://imr2-303014.oa.r.appspot.com/servak/api/comics')
             .then(response => response.json())
             .then(data => {
-                this.setState({ companies: data[1], loading: false });
+                this.setState({ comicses: data[1], loading: false });
             });
     }
 
-    static renderCompaniesTable(companies) {
+    static renderTable(comicses) {
         return (
             <table className='table'>
                 <thead>
@@ -24,10 +24,10 @@ export class FetchData extends Component {
                     </tr>
                 </thead>
                 <tbody>
-                    {companies.map(company =>
-                        <tr key={company.id}>
-                            <td>{company.id}</td>
-                            <td>{company.company}</td>
+                    {comicses.map(comics =>
+                        <tr key={comics.id}>
+                            <td>{comics.id}</td>
+                            <td>{comics.name}</td>
                         </tr>
                     )}
                 </tbody>
@@ -38,11 +38,11 @@ export class FetchData extends Component {
     render() {
         let contents = this.state.loading
             ? <p><em>Loading...</em></p>
-            : FetchData.renderCompaniesTable(this.state.companies);
+            : FetchData.renderTable(this.state.comicses);
 
         return (
             <div>
-                <h1>CompanyTypes</h1>
+                <h1>Comics</h1>
                 <p>This component demonstrates fetching data from the server.</p>
                 {contents}
             </div>

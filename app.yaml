@@ -13,4 +13,4 @@ resources:
   disk_size_gb: 10
 
 env_variables:
-  My__Greeting: Hello World!
+  My__Greeting: Hello MIR!
