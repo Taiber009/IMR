@@ -10,7 +10,7 @@ export class FetchData extends Component {
         fetch('https://imr2-303014.oa.r.appspot.com/servak/api/comics')
             .then(response => response.json())
             .then(data => {
-                this.setState({ comicses: data[1], loading: false });
+                this.setState({ comicses: data, loading: false });
             });
     }
 
